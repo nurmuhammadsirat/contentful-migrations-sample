@@ -1,0 +1,17 @@
+{
+  "name": "contentful-migrations-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "contentful:migrate": "ts-node node_modules/.bin/contentful-migration -s $CONTENTFUL_SPACE_ID -a $CONTENTFUL_MANAGEMENT_ACCESS_TOKEN -e $CONTENTFUL_ENVIRONMENT -y"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "contentful-migration": "^4.0.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
